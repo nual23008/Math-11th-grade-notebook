@@ -11,3 +11,4 @@
 \contentsline {section}{\numberline {1.3}Hàm số lượng giác}{5}{section.12}%
 \contentsline {subsection}{\numberline {1.3.1}Hàm số chẵn, hàm số lẻ}{5}{subsection.13}%
 \contentsline {subsection}{\numberline {1.3.2}Hàm số tuần hoàn}{6}{subsection.14}%
+\contentsline {subsection}{\numberline {1.3.3}Đồ thị và tính chất của hàm số $y=\sin x$}{6}{subsection.15}%

@@ -2,19 +2,45 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Tài liệu toán học</title>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sổ tay công thức toán học</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+
+        .mobile {
+            display: none;
+            padding: 30px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            iframe {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+        }
+    </style>
 </head>
 
-<body style="margin:0;">
+<body>
+    <div class="mobile">
+        <h2>Sổ tay công thức toán học</h2>
+        <a href="main.pdf">Mở tài liệu PDF</a>
+    </div>
 
-    <iframe
-        src="main.pdf"
-        width="100%"
-        height="100%"
-        style="position:absolute; border:none;">
-    </iframe>
-
+    <iframe src="main.pdf" title="Sổ tay công thức"></iframe>
 </body>
 </html>
