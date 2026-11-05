@@ -243,7 +243,7 @@ Một cung của đường tròn bán kính $R$ có số đo $\alpha$ rad thì c
 \[
     \begin{aligned}
         &\fbox{$\cos x = 0 \iff x = \dfrac{\pi}{2} + k\pi, \quad k \in \mathbb{Z}$}\\[6pt]
-        &\fbox{$\cos x = 1 \iff x = k2\, \quad k \in \mathbb{Z}$}\\[6pt]
+        &\fbox{$\cos x = 1 \iff x = k2\pi, \quad k \in \mathbb{Z}$}\\[6pt]
         &\fbox{$\cos x = -1 \iff x = \pi + k2\pi, \quad k \in \mathbb{Z}$}
     \end{aligned}
 \]
@@ -254,3 +254,81 @@ Một cung của đường tròn bán kính $R$ có số đo $\alpha$ rad thì c
 \end{center}
 
 \subsection{Đồ thị và tính chất của hàm số $y = \tan x$}
+\noindent
+\hspace*{1cm}
+- Tập xác định: $D = \mathbb{R} \setminus \left\{\dfrac{\pi}{2} + k\pi, \quad k \in \mathbb{Z}\right\}$\\[6pt]
+\hspace*{1cm}
+- Tập giá trị: $\mathbb{R}$\\[6pt]
+\hspace*{1cm}
+- Là hàm số lẻ vì: $\tan(-x) = -\tan x, \quad \forall x \in \mathbb{R} \setminus \left\{\dfrac{\pi}{2} + k\pi, \quad k \in \mathbb{Z}\right\}$\\[6pt]
+\hspace*{1cm}
+- Là hàm số tuần hoàn với chu kỳ: $T = \pi$\\[6pt]
+\hspace*{1cm}
+- Hàm số $y = \tan x$ nhận các giá trị đặc biệt:\\[6pt]
+\[
+    \begin{aligned}
+        &\fbox{$\tan x = 0 \iff x = k\pi, \quad k \in \mathbb{Z}$}\\[6pt]
+        &\fbox{$\tan x = 1 \iff x = \dfrac{\pi}{4} + k\pi, \quad k \in \mathbb{Z}$}\\[6pt]
+        &\fbox{$\tan x = -1 \iff x = -\dfrac{\pi}{4} + k\pi, \quad k \in \mathbb{Z}$}
+    \end{aligned}
+\]
+\hspace*{1cm}
+- Đồ thị hàm số $y = \tan x$:\\
+\begin{center}
+    \input{figures/tan_diagram.tex}
+\end{center}
+
+\subsection{Đồ thị và tính chất của hàm số $y = \cot x$}
+\noindent
+\hspace*{1cm}
+- Tập xác định: $D = \mathbb{R} \setminus \left\{k\pi, \quad k \in \mathbb{Z}\right\}$\\[6pt]
+\hspace*{1cm}
+- Tập giá trị: $\mathbb{R}$\\[6pt]
+\hspace*{1cm}
+- Là hàm số lẻ vì: $\cot(-x) = -\cot x, \quad \forall x \in \mathbb{R} \setminus \left\{k\pi, \quad k \in \mathbb{Z}\right\}$\\[6pt]
+\hspace*{1cm}
+- Là hàm số tuần hoàn với chu kỳ: $T = \pi$\\[6pt]
+\hspace*{1cm}
+- Hàm số $y = \cot x$ nhận các giá trị đặc biệt:\\[6pt]
+\[
+    \begin{aligned}
+        &\fbox{$\cot x = 0 \iff x = \dfrac{\pi}{2} + k\pi, \quad k \in \mathbb{Z}$}\\[6pt]
+        &\fbox{$\cot x = 1 \iff x = \dfrac{\pi}{4} + k\pi, \quad k \in \mathbb{Z}$}\\[6pt]
+        &\fbox{$\cot x = -1 \iff x = -\dfrac{\pi}{4} + k\pi, \quad k \in \mathbb{Z}$}
+    \end{aligned}
+\]
+\hspace*{1cm}
+- Đồ thị hàm số $y = \tan x$:\\
+\begin{center}
+    \input{figures/cot_diagran.tex}
+\end{center}
+
+\section{Phương trình lượng giác cơ bản}
+
+\subsection{Khái niệm phương trình tương đương}
+\noindent\hspace*{1cm}- Hai phương trình được gọi là tương đương khi chúng có cùng tập nghiệm.\par\vspace{6pt}
+\noindent\hspace*{1cm}- Nếu phương trình $f(x) = 0$ tương đương với phương trình $g(x) = 0$ thì ta viết:
+\[
+    f(x) = 0 \iff g(x) = 0.
+\]
+
+\subsection{Phương trình $\sin x = m$}
+\noindent\hspace*{1cm}- Trường hợp $|m| > 1$, \textcolor{red}{phương trình vô nghiệm}\par\vspace{6pt}
+\noindent\hspace*{1cm}- Trường hợp $|m| \leq 1$, tồn tại duy nhất một số $\alpha \in \left[-\dfrac{\pi}{2};\dfrac{\pi}{2}\right]$ thỏa mãn \mbox{$\sin \alpha = m$}. Ta có:
+\[
+    \sin x = \sin \alpha \iff
+    \left[
+        \begin{aligned}
+            x &= \alpha + k2\pi\\
+            x &= (\pi -\alpha) + k2\pi
+        \end{aligned}
+    \right.,
+    \quad 
+    \left(
+        k \in \mathbb{Z}
+    \right)
+\]
+\subsection{Phương trình $\cos x = m$}
+\subsection{Phương trình $\tan x = m$ và $\cot x = m$}
+
+

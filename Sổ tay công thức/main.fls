@@ -363,6 +363,12 @@ INPUT figures/sin_diagram.tex
 INPUT ./figures/cos_diagram.tex
 INPUT ./figures/cos_diagram.tex
 INPUT figures/cos_diagram.tex
+INPUT ./figures/tan_diagram.tex
+INPUT ./figures/tan_diagram.tex
+INPUT figures/tan_diagram.tex
+INPUT ./figures/cot_diagran.tex
+INPUT ./figures/cot_diagran.tex
+INPUT figures/cot_diagran.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
