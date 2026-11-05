@@ -26,12 +26,14 @@ jobs:
         uses: xu-cheng/latex-action@v4
         with:
           root_file: main.tex
+          working_directory: 'Sổ tay công thức'
+          latexmk_use_xelatex: true
 
       - name: Prepare website
         run: |
           mkdir -p site
-          cp main.pdf site/main.pdf
-          cp index.html site/index.html
+          cp "Sổ tay công thức/main.pdf" site/main.pdf
+          cp "Sổ tay công thức/index.html" site/index.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
