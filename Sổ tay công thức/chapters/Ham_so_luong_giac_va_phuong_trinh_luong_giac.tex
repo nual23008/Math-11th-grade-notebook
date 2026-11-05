@@ -1,0 +1,164 @@
+\chapter{Hàm số lượng giác và phương trình lượng giác}
+
+\section{Giá trị lượng giác của góc lượng giác}
+
+\subsection{Đơn vị đo góc và độ dài cung tròn}
+
+\noindent\textbf{- Quan hệ giữa độ và radian}
+
+\begin{center}
+    $1^\circ=\dfrac{\pi}{180}\, \mathrm{rad}$ và $1\, \mathrm{rad}=\left(\dfrac{180}{\pi}\right)^\circ$
+\end{center}
+
+\noindent\textbf{- Độ dài của một cung tròn}
+
+Một cung của đường tròn bán kính $R$ có số đo $\alpha$ rad thì có độ dài là:
+\[
+\fbox{$l=R.\alpha$}
+\]
+
+\subsection{Giá trị lượng giác của một góc lượng giác}
+
+\begin{minipage}[c]{0.6\textwidth}
+    \raggedright
+    Xét hệ trục tọa độ Descart Oxy, ta có:\\
+    + Điểm A(1;0)\\
+    + Điểm A'(-1;0)\\
+    + Điểm B(0,1)\\
+    + Điểm B'(0,-1)\\
+    \vspace{5mm}
+    Giả sử điểm M(x;y) là điểm trên đường tròn lượng giác, biểu diễn góc lượng giác có số đo $\alpha$\\
+    + Hoành độ $x$ của điểm M gọi là cosin của $\alpha$ và kí hiệu là $\cos\alpha$
+    \[
+    \cos\alpha=x
+    \]
+    + Tung độ $y$ của điểm M gọi là sin của $\alpha$ và kí hiệu là $\sin\alpha$
+    \[
+    \sin\alpha=y
+    \] 
+    
+\end{minipage}
+\hfil
+\begin{minipage}[c]{0.4\textwidth}
+    \centering
+
+    \input{figures/unit_circle.tex}
+\end{minipage}
+
++ Nếu $\cos\alpha\neq0$, tỉ số $\dfrac{\sin\alpha}{\cos\alpha}$ gọi là tang của $\alpha$ và kí hiệu là $\tan\alpha$:
+\[
+\fbox{$\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$}
+\]
+
++ Nếu $\sin\alpha\neq0$, tỉ số $\dfrac{\cos\alpha}{\sin\alpha}$ gọi là costang của $\alpha$ và kí hiệu là $\cot\alpha$:
+\[
+\fbox{$\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}$}
+\]
+
+\noindent\textbf{Chú ý:} Ta cũng gọi trục tung là trục \textbf{sin}, còn trục hoành là trục \textbf{cos}
+
+\subsection{Quan hệ giữa các giá trị lượng giác}
+
+\noindent\textbf{- Công thức lượng giác cơ bản}\\
+
+\par
++ Đối với các giá trị lượng giác, ta có các hằng đẳng thức sau\\
+\[
+    \begin{aligned}
+        &\fbox{$\sin^2\alpha+\cos^2\alpha=1$}\\[6pt]
+        &\fbox{$1+\tan^2\alpha=\dfrac{1}{\cos^2\alpha}$},\quad \alpha\neq\dfrac{\pi}{2}+k\pi,\quad k\in\mathbb{Z}\\[6pt]
+        &\fbox{$1+\cot^2\alpha=\dfrac{1}{\sin^2\alpha}$},\quad \alpha\neq k\pi,\quad k\in\mathbb{Z}\\[6pt]
+        &\fbox{$\tan\alpha.\cot\alpha=1$}, \quad \alpha \neq \dfrac{k\pi}{2}, \quad k \in \mathbb{Z}
+    \end{aligned}
+\]
+
+\noindent\textbf{- Giá trị lượng giác của các góc có liên quan đặc biệt}
+\par
++ Góc đối nhau:
+\[
+    \begin{aligned}
+        &\fbox{$\cos(-\alpha)=\cos\alpha$}\\[6pt]
+        &\fbox{$\sin(-\alpha)=-\sin\alpha$}\\[6pt]
+        &\fbox{$\tan(-\alpha)=-\tan\alpha$}\\[6pt]
+        &\fbox{$\cot(-\alpha)=-\cot\alpha$}\\[6pt]
+    \end{aligned}
+\]
+
++ Góc bù nhau:
+\[
+    \begin{aligned}
+        &\fbox{$\cos(\pi-\alpha)=-\cos\alpha$}\\[6pt]
+        &\fbox{$\sin(\pi-\alpha)=\sin\alpha$}\\[6pt]
+        &\fbox{$\tan(\pi-\alpha)=-\tan\alpha$}\\[6pt]
+        &\fbox{$\cot(\pi-\alpha)=-\cot\alpha$}\\[6pt]
+    \end{aligned}
+\]
+
++ Góc phụ nhau:
+\[
+    \begin{aligned}
+        &\fbox{$\cos\left(\dfrac{\pi}{2}-\alpha\right)=\sin\alpha$}\\[6pt]
+        &\fbox{$\sin\left(\dfrac{\pi}{2}-\alpha\right)=\cos\alpha$}\\[6pt]
+        &\fbox{$\tan\left(\dfrac{\pi}{2}-\alpha\right)=\cot\alpha$}\\[6pt]
+        &\fbox{$\cot\left(\dfrac{\pi}{2}-\alpha\right)=\tan\alpha$}\\[6pt]
+    \end{aligned}
+\]
+
++ Góc hơn kém $\pi$:
+\[
+    \begin{aligned}
+        &\fbox{$\cos(\pi+\alpha)=-\cos\alpha$}\\[6pt]
+        &\fbox{$\sin(\pi+\alpha)=-\sin\alpha$}\\[6pt]
+        &\fbox{$\tan(\pi+\alpha)=\tan\alpha$}\\[6pt]
+        &\fbox{$\cot(\pi+\alpha)=\cot\alpha$}\\[6pt]
+    \end{aligned}
+\]
+
++ Góc hơn kém $\dfrac{\pi}{2}$:
+\[
+    \begin{aligned}
+        &\fbox{$\cos\left(\dfrac{\pi}{2}+\alpha\right)=-\sin\alpha$}\\[6pt]
+        &\fbox{$\sin\left(\dfrac{\pi}{2}+\alpha\right)=\cos\alpha$}\\[6pt]
+        &\fbox{$\tan\left(\dfrac{\pi}{2}+\alpha\right)=-\cot\alpha$}\\[6pt]
+        &\fbox{$\cot\left(\dfrac{\pi}{2}+\alpha\right)=-\tan\alpha$}\\[6pt]
+    \end{aligned}
+\]
+
+\section{Công thức lượng giác}
+
+\subsection{Công thức cộng}
+\[
+    \begin{aligned}
+        &\fbox{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$}\\[6pt]
+        &\fbox{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\pm\sin\alpha\sin\beta$}\\[6pt]
+        &\fbox{$\tan(\alpha\pm\beta)=\dfrac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}
+    \end{aligned}
+\]
+
+\subsection{Công thực hạ bậc}
+\[
+    \begin{aligned}
+        &\fbox{$\cos^2\alpha=\dfrac{1+\cos2\alpha}{2}$}\\[6pt]
+        &\fbox{$\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$}\\[6pt]
+        &\fbox{$\tan^2\alpha=\dfrac{1-\cos2\alpha}{1+\cos2\alpha}$}
+    \end{aligned}
+\]
+
+\subsection{Công thức biến đổi tính thành tổng}
+\[
+    \begin{aligned}
+        &\fbox{$\cos\alpha\cos\beta=\dfrac{1}{2}[\cos(\alpha-\beta)+\cos(\alpha+\beta)]$}\\[6pt]
+        &\fbox{$\sin\alpha\sin\beta=\dfrac{1}{2}[\cos(\alpha-\beta)-\cos(\alpha+\beta)]$}\\[6pt]
+        &\fbox{$\sin\alpha\cos\beta=\dfrac{1}{2}[\sin(\alpha-\beta)+\sin(\alpha+\beta)]$}
+    \end{aligned}
+\]
+
+\subsection{Công thức biến đổi tổng thành tích}
+\[
+    \begin{aligned}
+        &\fbox{$\cos\alpha+\cos\beta=2\cos\left(\dfrac{\alpha+\beta}{2}\right)\cos\left(\dfrac{\alpha-\beta}{2}\right)$}\\[6pt]
+        &\fbox{$\cos\alpha-\cos\beta=-2\sin\left(\dfrac{\alpha+\beta}{2}\right)\sin\left(\dfrac{\alpha-\beta}{2}\right)$}\\[6pt]
+        &\fbox{$\sin\alpha+\sin\beta=2\sin\left(\dfrac{\alpha+\beta}{2}\right)\cos\left(\dfrac{\alpha-\beta}{2}\right)$}\\[6pt]
+        &\fbox{$\sin\alpha-\sin\beta=2\cos\left(\dfrac{\alpha+\beta}{2}\right)\sin\left(\dfrac{\alpha-\beta}{2}\right)$}
+    \end{aligned}
+\]

@@ -1,0 +1,32 @@
+\begin{tikzpicture}[scale = 2.5]
+    \def\ang{40}
+
+    \draw[->] (-1.3, 0) -- (1.3, 0) node[below right] {$x$};
+    \draw[->] (0, -1.3) -- (0, 1.3) node[above left] {$y$};
+
+    \draw[thick] (0,0) circle(1); 
+
+    \fill (0, 0) circle(1pt);
+    \node[below left] at (0, 0) {$O$};
+
+    \node[above right] at (1, 0) {$A$};
+    \node[above left] at (0, 1) {$B$};
+    \node[above left] at (-1, 0) {$A'$};
+    \node[below left] at (0, -1) {$B'$};
+
+    \coordinate (M) at ({cos(\ang)}, {sin(\ang)});
+
+    \fill (M) circle(1pt);
+    \draw[blue, thick, ->] (0, 0) -- (M);
+    \node[above right] at (M) {$M(x; y)$};
+
+    \draw[red, dashed] (M) -- (0, {sin(\ang)});
+    \node[left] at (0, {sin(\ang)}) {$\sin\alpha$};
+
+    \draw[red, dashed] (M) -- ({cos(\ang)}, 0);
+    \node[below] at ({cos(\ang)}, 0) {$\cos\alpha$};
+
+    \draw[orange, thick, ->] (0.3, 0) arc (0:\ang:0.3);
+    \node[above right] at ({0.3 * cos(\ang / 2)}, {0.1 * sin(\ang / 2)}) {$\alpha$};
+
+\end{tikzpicture}
