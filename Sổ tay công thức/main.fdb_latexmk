@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1793943855.28224 "main.xdv" "main.pdf" "main" 1793943855.36308 0
-  "main.xdv" 1793943855.18462 216892 16f63b98ce3dc72930ef1ef8ea0667d6 "xelatex"
+["xdvipdfmx"] 1793946214.0128 "main.xdv" "main.pdf" "main" 1793946214.05804 0
+  "main.xdv" 1793946213.96228 229232 680ddf97a2e3a05fd7f758a34d4473ab "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1793943851.33958 "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" "main.xdv" "main" 1793943855.35992 0
+["xelatex"] 1793946212.073 "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" "main.xdv" "main" 1793946214.05654 0
   "/etc/texmf/web2c/texmf.cnf" 1793758346.90459 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" 1793863729.38985 1672 5c036cd99f22967ea78810f86b4da135 ""
+  "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" 1793944082.33725 1730 59b0216fc31b8783b80a76a4a145eb99 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -201,16 +201,17 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1793798592 4456295 f602d9c76c80aa3564c6a6a74a9d610c ""
+  "chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex" 1793946211.91503 1724 3a2811f69eb3ce52ce2c857bd92dc0a7 ""
   "chapters/Ham_so_luong_giac_va_phuong_trinh_luong_giac.tex" 1793943851.06789 15394 03e93572c6a9be8c828a443d8e2092b8 ""
   "figures/cos_diagram.tex" 1793865139.74324 1003 943ffd25b52de7f60c701ecafc8832b2 ""
   "figures/cot_diagran.tex" 1793866075.83155 1766 15e9b845b04bf45f2a400ee506c78e25 ""
   "figures/sin_diagram.tex" 1793865184.68652 1034 b2e7529d42b05c75de27c3b356d85044 ""
   "figures/tan_diagram.tex" 1793865746.72621 1744 2688ae91c41ecf3aacb2ca664715e79e ""
   "figures/unit_circle.tex" 1793841371.58052 968 156f10b5e67ad37ff55f4aa69df5cf3c ""
-  "main.aux" 1793943855.18327 3584 13df65987ced71004a1c8e4e724e8f68 "xelatex"
-  "main.out" 1793943855.18427 5365 d48b004ab49accdfe3ded5da4ab59d59 "xelatex"
-  "main.tex" 1793863729.38985 1672 5c036cd99f22967ea78810f86b4da135 ""
-  "main.toc" 1793943855.18462 2413 4f6ce7b3d5575427f4d8d520a4df15ff "xelatex"
+  "main.aux" 1793946213.96174 4176 faae2f852ee5eb93d9aceeca1f41636d "xelatex"
+  "main.out" 1793946213.96174 6018 33d37c91a94d8ad14d334ff1ea23d2b1 "xelatex"
+  "main.tex" 1793944082.33725 1730 59b0216fc31b8783b80a76a4a145eb99 ""
+  "main.toc" 1793946213.96228 2765 3498d43c1bf6e6026ab55ef8b60fcf69 "xelatex"
   (generated)
   "main.aux"
   "main.log"

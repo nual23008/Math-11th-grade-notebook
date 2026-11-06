@@ -21,3 +21,7 @@
 \contentsline {subsection}{\numberline {1.4.3}Phương trình $\cos x = m$}{9}{subsection.22}%
 \contentsline {subsection}{\numberline {1.4.4}Phương trình $\tan x = m$}{9}{subsection.23}%
 \contentsline {subsection}{\numberline {1.4.5}Phương trình $\cot x = m$}{10}{subsection.24}%
+\contentsline {chapter}{\numberline {2}Dãy số, cấp số cộng và cấp số nhân}{11}{chapter.25}%
+\contentsline {section}{\numberline {2.1}Dãy số}{11}{section.26}%
+\contentsline {subsection}{\numberline {2.1.1}Dãy số hữu hạn}{11}{subsection.27}%
+\contentsline {subsection}{\numberline {2.1.2}Dãy số vô hạn}{11}{subsection.28}%
