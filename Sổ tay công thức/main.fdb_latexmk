@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1794197312.10776 "main.xdv" "main.pdf" "main" 1794197312.20189 0
-  "main.xdv" 1794197311.99658 250440 586e155ca608c2e2d8b7866c724010e3 "xelatex"
+["xdvipdfmx"] 1794207296.1844 "main.xdv" "main.pdf" "main" 1794207296.22223 0
+  "main.xdv" 1794207296.13891 259356 1fbbd5dc66e73664d5c644452ae9c2f8 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1794197307.0363 "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" "main.xdv" "main" 1794197312.19824 0
+["xelatex"] 1794207294.22263 "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" "main.xdv" "main" 1794207296.22073 0
   "/etc/texmf/web2c/texmf.cnf" 1793758346.90459 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/luan/Desktop/LaTex/Sổ tay công thức/main.tex" 1793944082.33725 1730 59b0216fc31b8783b80a76a4a145eb99 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -201,7 +201,7 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1793798592 4456295 f602d9c76c80aa3564c6a6a74a9d610c ""
-  "chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex" 1794197306.72995 4340 cb611225ef48b7210ea7947a03a0ec36 ""
+  "chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex" 1794207294.0609 5456 b08182c3d4672d7bbec7cc48d17d163c ""
   "chapters/Ham_so_luong_giac_va_phuong_trinh_luong_giac.tex" 1793943851.06789 15394 03e93572c6a9be8c828a443d8e2092b8 ""
   "figures/cos_diagram.tex" 1793865139.74324 1003 943ffd25b52de7f60c701ecafc8832b2 ""
   "figures/cot_diagran.tex" 1793866075.83155 1766 15e9b845b04bf45f2a400ee506c78e25 ""
@@ -209,10 +209,10 @@
   "figures/sin_diagram.tex" 1793865184.68652 1034 b2e7529d42b05c75de27c3b356d85044 ""
   "figures/tan_diagram.tex" 1793865746.72621 1744 2688ae91c41ecf3aacb2ca664715e79e ""
   "figures/unit_circle.tex" 1793841371.58052 968 156f10b5e67ad37ff55f4aa69df5cf3c ""
-  "main.aux" 1794197311.99458 4826 7de4db53b6a8f113cf3991128529a05b "xelatex"
-  "main.out" 1794197311.99558 6808 0644f8c7310306f3f8f61760430d8fbf "xelatex"
+  "main.aux" 1794207296.13791 5143 e00a6ca5dae3fb7300b4fe20b7cdf14b "xelatex"
+  "main.out" 1794207296.13891 7355 3774cf07e7f6d3e0d05397003401562f "xelatex"
   "main.tex" 1793944082.33725 1730 59b0216fc31b8783b80a76a4a145eb99 ""
-  "main.toc" 1794197311.99658 3210 d0d006fa8ac545727cc987278c4363e9 "xelatex"
+  "main.toc" 1794207296.13891 3445 cbab9924f02632fc2bfac8097c252420 "xelatex"
   (generated)
   "main.aux"
   "main.log"
