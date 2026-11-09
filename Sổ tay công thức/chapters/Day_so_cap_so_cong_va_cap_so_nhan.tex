@@ -33,9 +33,57 @@
 \noindent\hspace*{1.15cm} ...........,\\[6pt]
 \noindent\hspace*{1.15cm} Số $u_n$ gọi là số hạng thứ $n$ (và là số hạng tổng quát của dãy số).\\[6pt]
 
+\begin{center}
+    \input{figures/day_so.tex} 
+\end{center}
 
+\subsection{Cách cho một dãy số}
+\noindent\hspace*{1cm}- Ta có thể cho dãy số bằng một trong những cách sau:\\[6pt]
+\noindent\hspace*{1.5cm}+ Liệt kê các số hạng của dãy số (với những dãy số hữu hạn và có ít số hạng).\\[6pt]
+\noindent\hspace*{1.5cm}+ Diễn đạt bằng lời cách xác định mỗi số hạng của dãy số.\\[6pt]
+\noindent\hspace*{1.5cm}+ Cho công thức của số hạng tổng quát của dãy số.\\[6pt]
+\noindent\hspace*{1.5cm}+ Cho bằng phương pháp truy hồi.
 
+\subsection{Dãy số tăng, dãy số giảm}
+\noindent\hspace*{1cm}$
+\begin{aligned}[t]
+    \text{- } (u_n)\text{ là dãy số tăng}
+    &\iff u_{n + 1} > u_n, \quad \forall n \in \mathbb{N}^* \\[6pt]
+    &\iff u_{n + 1} - u_n > 0, \quad \forall n \in \mathbb{N}^* \\[6pt]
+    &\boxed{\iff \dfrac{u_{n + 1}}{u_n} > 1, \quad \forall n \in \mathbb{N}^* \quad (u_n > 0)}
+\end{aligned}
+$
+\\[12pt]
+\noindent\hspace*{1cm}$
+    \begin{aligned}
+        \text{- } (u_n) \text{ là dãy số giảm}
+        &\iff u_{n + 1} < u_n, \quad \forall n \in \mathbb{N}^* \\[6pt]
+        &\iff u_{n + 1} - u_n < 0, \quad \forall n \in \mathbb{N}^* \\[6pt]
+        &\boxed{\iff \dfrac{u_{n + 1}}{u_n} < 1, \quad \forall n \in \mathbb{N}^* \quad (u_n > 0)}     
+    \end{aligned}
+$
 
+\subsection{Dãy số bị chặn}
+\noindent\hspace*{1cm}- Dãy số $(u_n)$ được gọi là \textcolor{red}{bị chặn trên} nếu tồn tại một số $M$ sao cho:
+\[
+    \boxed{u_n \leq M, \quad \forall n \in \mathbb{N}^*}
+\]
+\noindent\hspace*{1cm}- Dãy số $(u_n)$ được gọi là \textcolor{red}{bị chặn } nếu tồn tại một số $m$ sao cho:
+\[
+    \boxed{u_n \geq M, \quad \forall n \in \mathbb{N}^*}
+\]
+\noindent\hspace*{1cm}- Dãy số $(u_n)$ được gọi là \textcolor{red}{bị chặn} nếu nó vừa bị chặn trên, vừa bị chặn dưới; tức là tồn tại các số $m$ và $M$ sao cho:
+\[
+    \boxed{m \leq u_n \leq M, \quad \forall n \in \mathbb{N}^*}
+\]
+
+\section{Cấp số cộng}
+\subsection{Cấp số cộng}
+\noindent\hspace*{1cm}\textbf{- Định nghĩa:} Cấp số cộng là \textcolor{red}{một dãy số} (vô hạn hoặc hữu hạn) mà trong đó, kể từ số hạng thứ hai, mỗi số hạng đều bằng tổng của số hạng đưng ngay trươc nó với một số $d$ không đổi, nghĩa là:
+\[
+    \boxed{u_{n+1} = u_n + d, \quad (n \in \mathbb{N}^*)}
+\]
+\noindent\hspace*{1.5cm} Trong đó: $d$ được gọi là công sai của cấp số cộng.
 
 
 

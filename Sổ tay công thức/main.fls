@@ -372,6 +372,9 @@ INPUT figures/cot_diagran.tex
 INPUT ./chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex
 INPUT ./chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex
 INPUT chapters/Day_so_cap_so_cong_va_cap_so_nhan.tex
+INPUT ./figures/day_so.tex
+INPUT ./figures/day_so.tex
+INPUT figures/day_so.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
